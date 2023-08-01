@@ -12,7 +12,7 @@ export class ComingSoonComponent {
   seconds:any;
 
   constructor() {
-    const launchDate = new Date('2023-08-01'); // Set your launch date here
+    const launchDate = new Date('2023-08-20'); // Set your launch date here
     this.countdownTimer(launchDate);
   }
 
